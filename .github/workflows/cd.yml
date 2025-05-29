@@ -25,7 +25,7 @@ jobs:
         run: docker build -t liano99/cd_docker_project:latest .
 
       - name: Push Docker image to Docker Hub
-        run: docker push yourdockerhub/cd_docker_project:latest
+        run: docker push liano99/cd_docker_project:latest
 
 
   deploy:
